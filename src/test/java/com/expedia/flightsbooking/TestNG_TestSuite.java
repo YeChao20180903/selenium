@@ -18,7 +18,7 @@ public class TestNG_TestSuite {
 	@BeforeClass
 	public void beforeClass() {
 //		System.setProperty("webdriver.chrome.driver", "/Users/gaoyan/eclipse-workspace/driver/chromedriver");
-		driver = new SafariDriver();
+		driver = new ChromeDriver();
 		baseUrl = "https://www.expedia-cn.com/";
 
 		// Maximize the browser's window
